@@ -13,11 +13,15 @@ This site will function as a community-oriented site for [Subreply](https://subr
 
 ## Roadmap
 
-[Metareply](https://metareply.net) will run on a small Node.js stack utilizing [Polka](https://github.com/lukeed/polka) for the [server*](1) and [Sapper](https://github.com/sveltejs/sapper) for the client.
+[Metareply](https://metareply.net) will [run on*](1):
+  - A small Node.js stack utilizing [Polka](https://github.com/lukeed/polka), or...
+  - ...a Python stack utilizing [Falcon](https://falcon.readthedocs.io) and a WSGI server
+  - [Sapper](https://github.com/sveltejs/sapper) for the client
 
 Features I'd like to build:
 
-- [ ] Basic website with
+- [ ] a page with details covering timespans (24h, 7d, etc.) and respective data (avg posts/hour, active hours, longest threads)
+- [ ] details page for every Subreply user
 
 ## Contributing
 
